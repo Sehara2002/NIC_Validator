@@ -2,3 +2,4 @@ nix/*
 nix
 __pycache__/
 *.pyc
+.gitignore

@@ -26,6 +26,8 @@ def nic_dfa(nic):
                 state = "REJECT"
 
         # q10 → q11
+        # This part of the code is handling the transition from state "q10" to state "q11" in the DFA
+        # (Deterministic Finite Automaton) for validating a National Identity Card (NIC) number.
         elif state == "q10":
             if ch.isdigit():
                 state = "q11"
